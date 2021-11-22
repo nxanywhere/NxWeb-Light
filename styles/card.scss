@@ -1,0 +1,379 @@
+.cardgradient1 {
+  background-image: radial-gradient(
+      at 97% 93%,
+      rgba(232, 81, 246, 0.3) 0,
+      transparent 45%
+    ),
+    radial-gradient(at 3% 100%, hsla(226, 93%, 76%, 0.356) 0, transparent 48%),
+    radial-gradient(at 77% 75%, rgba(32, 43, 58, 0.3) 0, transparent 84%),
+    radial-gradient(at 80% 50%, rgb(212, 0, 255) 0, transparent 50%),
+    radial-gradient(at 91% 17%, rgb(255, 0, 149) 0, transparent 50%),
+    radial-gradient(at 33% 33%, rgb(255, 0, 55) 0, transparent 80%),
+    radial-gradient(at 0 0, rgba(239, 26, 189, 0.3) 0, transparent 50%);
+  padding: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 24px;
+  transition-duration: 250ms;
+
+  &:hover {
+    transform: scale(1.25);
+    transition-duration: 250ms;
+  }
+}
+
+b.txtlg {
+  font-size: 80px;
+  letter-spacing: -5px;
+}
+
+.cardContent {
+  /* padding-left: 24px;
+      padding-right: 24px; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.cardContent2 {
+  /* padding-left: 24px;
+      padding-right: 24px; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.txtdf {
+  transition-duration: 250ms;
+
+  &:hover {
+    color: black !important;
+    letter-spacing: 0px !important;
+    transition-duration: 250ms;
+  }
+}
+
+/* ----------------- cardmaterial -----------------  */
+
+.cardmat1 {
+  background-image: linear-gradient(
+    to top,
+    transparent 50%,
+    rgba(26, 26, 26) 50%
+  );
+  background-size: 100% 200%;
+  background-position: -100% 0;
+  padding: 24px;
+  color: #fff;
+  -webkit-transition: ease-in-out 0.25s;
+  -moz-transition: ease-in-out 0.25s;
+  transition: ease-in-out 0.25s;
+  transform: scale(1);
+
+  &:hover {
+    background-color: rgb(255, 204, 0);
+    background-position: 0 100%;
+    color: rgb(0, 0, 0);
+    -webkit-transition: ease-in-out 0.25s;
+    -moz-transition: ease-in-out 0.25s;
+    transition: ease-in-out 0.25s;
+
+    /* transform: scale(1.125); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: scale(1.125);
+  }
+}
+
+.cardmat2 {
+  background-color: rgb(26, 26, 26);
+  padding: 24px;
+  color: #fff;
+  transition-duration: 250ms;
+  transform: scale(1);
+
+  &:hover {
+    background-color: rgb(0, 251, 255);
+    color: rgb(0, 0, 0);
+    transition-duration: 250ms;
+
+    /* transform: scale(1.125); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: scale(1.125);
+  }
+}
+
+.cardmat3 {
+  background-color: rgb(26, 26, 26);
+  padding: 24px;
+  color: #fff;
+  transition-duration: 250ms;
+  transform: scale(1);
+
+  &:hover {
+    background-color: rgb(255, 162, 0);
+    color: rgb(3, 3, 3);
+    transition-duration: 250ms;
+
+    /* transform: scale(1.125); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: scale(1.125);
+  }
+}
+
+.cardmat4 {
+  background-color: rgb(26, 26, 26);
+  padding: 24px;
+  color: #fff;
+  transition-duration: 250ms;
+  transform: scale(1);
+
+  &:hover {
+    background-color: rgb(0, 157, 255);
+    color: rgb(255, 255, 255);
+    transition-duration: 250ms;
+
+    /* transform: scale(1.125); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: scale(1.125);
+  }
+}
+
+.cardmat5 {
+  background-color: rgb(26, 26, 26);
+  padding: 24px;
+  color: #fff;
+  transition-duration: 250ms;
+  transform: scale(1);
+
+  &:hover {
+    background-color: rgb(0, 255, 21);
+    color: rgb(0, 0, 0);
+    transition-duration: 250ms;
+
+    /* transform: scale(1.125); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: scale(1.125);
+  }
+}
+
+.cardmat6 {
+  background-color: rgb(26, 26, 26);
+  padding: 24px;
+  color: #fff;
+  transition-duration: 250ms;
+  transform: scale(1);
+
+  &:hover {
+    background-color: rgb(255, 0, 111);
+    color: rgb(255, 255, 255) !important;
+    transition-duration: 250ms;
+
+    /* transform: scale(1.125); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: scale(1.125);
+  }
+}
+
+.cardmat7 {
+  background-color: rgb(26, 26, 26);
+  padding: 24px;
+  color: #fff;
+  transition-duration: 250ms;
+  transform: scale(1);
+
+  &:hover {
+    background-color: rgb(128, 0, 255);
+    color: rgb(255, 255, 255) !important;
+    transition-duration: 250ms;
+
+    /* transform: scale(1.125); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: scale(1.125);
+  }
+}
+
+.cardmat8 {
+  background-color: rgb(26, 26, 26);
+  padding: 24px;
+  color: #fff;
+  transition-duration: 250ms;
+  transform: scale(1);
+
+  &:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255) !important;
+    transition-duration: 250ms;
+
+    /* transform: scale(1.125); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: scale(1.125);
+  }
+}
+
+.cardmat9 {
+  background-color: rgb(26, 26, 26);
+  padding: 24px;
+  color: #fff;
+  transition-duration: 250ms;
+  transform: scale(1);
+
+  &:hover {
+    background-color: rgb(221, 255, 0);
+    color: rgb(0, 0, 0) !important;
+    transition-duration: 250ms;
+
+    /* transform: scale(1.125); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: scale(1.125);
+  }
+}
+
+.cardmat10 {
+  background-color: rgb(26, 26, 26);
+  padding: 24px;
+  color: #fff;
+  transition-duration: 250ms;
+  transform: scale(1);
+
+  &:hover {
+    background-color: rgb(89, 0, 255);
+    color: rgb(255, 255, 255) !important;
+    transition-duration: 250ms;
+
+    /* transform: scale(1.125); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: scale(1.125);
+  }
+}
+
+.cardmat11 {
+  background-color: rgb(26, 26, 26);
+  padding: 24px;
+  color: #fff;
+  transition-duration: 250ms;
+  transform: scale(1);
+
+  &:hover {
+    background-color: rgb(255, 0, 149);
+    color: rgb(255, 255, 255) !important;
+    transition-duration: 250ms;
+
+    /* transform: scale(1.125); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: scale(1.125);
+  }
+}
+
+/* ----------------- border -----------------  */
+
+.borLine1 {
+  color: #fff;
+  opacity: 0.5;
+  transition-duration: 250ms;
+
+  &:hover {
+    opacity: 1;
+    transition-duration: 250ms;
+  }
+}
+
+.borLine2 {
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+  transition-duration: 250ms;
+
+  &:hover {
+    opacity: 1;
+    transition-duration: 250ms;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .cardContent {
+    transition-duration: 250ms;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cardContent2 {
+    transition-duration: 250ms;
+    gap: 16px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .cardContent {
+    transition-duration: 250ms;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cardContent2 {
+    transition-duration: 250ms;
+    gap: 16px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .cardContent {
+    transition-duration: 250ms;
+    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cardContent2 {
+    transition-duration: 250ms;
+    gap: 16px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .cardContent {
+    transition-duration: 250ms;
+    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cardContent2 {
+    transition-duration: 250ms;
+    gap: 16px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .cardContent {
+    transition-duration: 250ms;
+    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cardContent2 {
+    transition-duration: 250ms;
+    gap: 16px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cardContent,
+  .cardContent2 {
+    transition-duration: 250ms;
+    gap: 16px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
